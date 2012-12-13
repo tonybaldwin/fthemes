@@ -1,0 +1,25 @@
+
+Friendica Themes by Tony Baldwin
+https://free-haven.org/u/tony
+
+These themes and more stuff for Friendica by Tony:
+http://tonyb.us/friendihax
+
+Site Admins:
+To install, download the tarball and move to $YOURFRIENDICADIRECTORY/view/theme/
+and extract it.
+Enable the theme in Admin->Themes
+Choose the theme in Settings->Display Settings
+
+Users:
+Ask your admin to install the theme.
+Choose the theme in Settings->Display
+
+Included themes:
+  * FreeHaven Theme - Partly cloudy with a chance of FREEDOM! 
+	used at https://free-haven.org
+  * FinalFrontier Theme - Star Trek theme
+	used at https://free-haven.org/u/space
+  * DeathStar Theme - StarWars Death Star Theme
+	Live at the Imperial Network 
+
