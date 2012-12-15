@@ -91,7 +91,7 @@ blockquote {
 footer {
 	margin: 0px 10%;
 	display: block;
-	background-image: url('sectionend.jpg');
+	background-image: none;
 	background-position: top left;
 	background-repeat: repeat-x;
 	height: 25px;	
