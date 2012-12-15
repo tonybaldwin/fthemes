@@ -2,8 +2,8 @@
 
 /* tty theme by tony baldwin https://free-haven.org/u/tony  */
 
-a:link, a:visited { color: #fcff88; text-decoration: none; }
-a:hover {text-decoration: underline; }
+a:link, a:visited { color: #fcff88; text-decoration: underline; }
+a:hover {text-decoration: none; }
 
 input, select, textarea {
 	background-color: #000000;
@@ -12,7 +12,7 @@ input, select, textarea {
 }
 .openid { background-color: #000000;}
 
-body { 	background-color: #000000; color: #00ff00; background-image: none; }
+body { 	background-color: #000000; color: #00ff00; background-image: url(head.jpg); }
 aside{ 	background-image: url(border.jpg); padding-bottom: 0px; }
 section { background-color: #000000;	background-image: url(border.jpg); }
 #panel { background-color: #222222;}
@@ -91,7 +91,7 @@ blockquote {
 footer {
 	margin: 0px 10%;
 	display: block;
-	background-image: none;
+	background-image: url('sectionend.jpg');
 	background-position: top left;
 	background-repeat: repeat-x;
 	height: 25px;	
