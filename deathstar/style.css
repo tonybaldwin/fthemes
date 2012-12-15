@@ -1,7 +1,7 @@
 @import url('../duepuntozero/style.css');
 
-a:link, a:visited { color: #ee0000; background-color: #111; text-decoration: none; }
-a:hover {background-color: #444; color: #ee0400; text-decoration: none;}
+a:link, a:visited { color: #ee0400; text-decoration: none; }
+a:hover {background-color: #111; color: #ee0000; text-decoration: none;}
 
 input, select, textarea {
 	background-color: #222222;
