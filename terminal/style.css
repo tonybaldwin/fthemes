@@ -2,8 +2,8 @@
 
 /* tty theme by tony baldwin https://free-haven.org/u/tony  */
 
-a:link, a:visited { color: #fcff88; text-decoration: underline; }
-a:hover {text-decoration: none; }
+a:link, a:visited { color: #fcff88; text-decoration: none; }
+a:hover {text-decoration: underline; }
 
 input, select, textarea {
 	background-color: #000000;
