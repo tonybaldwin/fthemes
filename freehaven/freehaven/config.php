@@ -73,8 +73,14 @@ function freehaven_form(&$a, $color,$font_size,$resize,$theme_width){
 		"wide"=>"wide",
 		);
 
-	$t = file_get_contents( dirname(__file__). "/theme_settings.tpl" );
-	$o .= replace_macros($t, array(
+$t = get_markup_template("theme_settings.tpl" );
+	 	
+	 	$includes = array(
+	 	'$field_select' => 'field_select.tpl',
+	 	);
+	 	$includes = set_template_includes($a->theme['template_engine'], $includes);
+	 	
+	 	$o .= replace_macros($t, $includes + array(
 		'$submit' => t('Submit'),
 		'$baseurl' => $a->get_baseurl(),
 		'$title' => t("Theme settings"),
