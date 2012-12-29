@@ -12,7 +12,7 @@ $a->theme_info = array(
 
 set_template_engine($a, 'smarty3');
 
-function cleanzero_init(&$a) {
+function freehaven_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 
