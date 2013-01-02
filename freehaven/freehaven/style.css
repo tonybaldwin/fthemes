@@ -1,6 +1,9 @@
 @import url('../duepuntozero/style.css');
 body {background-image:none;
-	background: #d4f1ff;
+	background: #e3f3ff;
+	background-image: url('clouds.jpg');
+	background-repeat: repeat;
+	background-attachment:fixed;
 
 }
 

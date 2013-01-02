@@ -9,7 +9,10 @@
 $a->theme_info = array(
   'extends' => 'duepuntozero',
 );
-function cleanzero_init(&$a) {
+
+set_template_engine($a, 'smarty3');
+
+function freehaven_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 
@@ -104,15 +107,15 @@ EOT;
 // get resize configuration
 
 $resize=false;
-$site_resize = get_config('cleanzero', 'resize' );
-if(local_user()) $resize = get_pconfig(local_user(), 'cleanzero', 'resize' );
+$site_resize = get_config('freehaven', 'resize' );
+if(local_user()) $resize = get_pconfig(local_user(), 'freehaven', 'resize' );
 
 if ($resize===false) $resize=$site_resize;
 if ($resize===false) $resize=0;
 
 if (intval($resize) > 0) {
 //load jquery.ae.image.resize.js
-$imageresizeJS = $a->get_baseurl($ssl_state)."/view/theme/cleanzero/js/jquery.ae.image.resize.js";
+$imageresizeJS = $a->get_baseurl($ssl_state)."/view/theme/freehaven/js/jquery.ae.image.resize.js";
 $a->page['htmlhead'] .= sprintf('<script language="JavaScript" src="%s" ></script>', $imageresizeJS);
 $a->page['htmlhead'] .= '
 <script>

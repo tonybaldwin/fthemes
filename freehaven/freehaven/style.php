@@ -21,8 +21,8 @@
 	if ($freehaven_theme_width===false) $freehaven_theme_width="standard";
 	
 		
-	if (file_exists("$THEMEPATH/$color/style.css")){
-		echo file_get_contents("$THEMEPATH/$color/style.css");
+	if (file_exists("$THEMEPATH/style.css")){
+		echo file_get_contents("$THEMEPATH/style.css");
 	}
 
 
