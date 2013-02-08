@@ -12,7 +12,7 @@ input, select, textarea {
 }
 .openid { background-color: #000000;}
 
-body { 	background-color: #000000; color: #00ff00; background-image: url(head.jpg); }
+body { 	background-color: #000000; color: #00ff00; background-image: none; }
 aside{ 	background-image: url(border.jpg); padding-bottom: 0px; }
 section { background-color: #000000;	background-image: url(border.jpg); }
 #panel { background-color: #222222;}
@@ -91,9 +91,6 @@ blockquote {
 footer {
 	margin: 0px 10%;
 	display: block;
-	background-image: url('sectionend.jpg');
-	background-position: top left;
-	background-repeat: repeat-x;
 	height: 25px;	
 }
 
