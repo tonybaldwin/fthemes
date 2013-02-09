@@ -49,7 +49,7 @@ nav #banner #logo-text a { color: #00ff00; }
     	background-color: #333;
 }
 .comment-edit-preview{ color: #000000; }
-.wall-item-content-wrapper.comment { background-color: #444444; border: 0px;}
+.wall-item-content-wrapper.comment { background-color: #111111; border: 0px;}
 .photo-top-album-name{ background-color: #333333; }
 .photo-album-image-wrapper .caption { background-color: rgba(51, 51, 51, 0.8); color: #FFFFFF; }
 
