@@ -54,6 +54,7 @@ margin-right:12%;
 }
 
 aside {
+	position: relative;
 	margin-left: 10%;
 	background-image:none;
 }
@@ -128,4 +129,7 @@ padding: 6px 3px;
 
 nav .nav-link {
 	//float: left;
+}
+footer {
+	clear: both;
 }

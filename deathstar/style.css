@@ -11,7 +11,7 @@ input, select, textarea {
 .openid { background-color: #222222;}
 
 body { 	background-color: #222222; color: #cccccc; background-image: url(spacetile.jpg); background-repeat: repeat; background-attachment: fixed;}
-aside{ 	background-image: url(border.jpg); padding-bottom: 0px; }
+aside{ 	position:relative;background-image: url(border.jpg); padding-bottom: 0px; }
 section { background-color: #333333;background-image: url(spacetile.jpg); background-repeat:repeat;background-attachment: fixed; }
 
 img {border: 5px; border-color: #222;}
@@ -62,6 +62,7 @@ background-repeat: repeat;
 }
 #page-footer { min-height: 1em;}
 footer {
+	clear: both;
 	margin: 0px 10%;
 	display: block;
 	background-image: none;
