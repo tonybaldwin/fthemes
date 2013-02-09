@@ -13,8 +13,8 @@ input, select, textarea {
 .openid { background-color: #222222;}
 
 body { 	background-color: #222222; color: #cccccc; background-image: url(spacetile.jpg); background-repeat: repeat; background-attachment: fixed;}
-aside{ position:relative; background-image: url(border.jpg); padding-bottom: 0px; }
-section { background-color: #333333;	background-image: url(fedbadgeblue.jpg); background-repeat:repeat; background-attachment: fixed;}
+aside{  background-image: url(border.jpg); padding-bottom: 0px; }
+section { background-color: #333333;	background-image: url(fedbadgeblue.jpg); background-repeat:repeat; background-attachment: fixed; min-height: 1000px; }
 #panel { background-color: #2e2f2e;}
 
 .tabs {	background-image: url(head.jpg); }
