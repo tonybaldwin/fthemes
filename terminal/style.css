@@ -15,7 +15,7 @@ input, select, textarea {
 body { 	background-color: #000000; color: #00ff00; background-image: none; }
 aside{ 	background-image: url(border.jpg); padding-bottom: 0px; }
 section { background-color: #000000;	background-image: url(border.jpg); }
-#panel { background-color: #222222;}
+#panel { background-color: #000000 !important;}
 
 .tabs {	background-image: url(head.jpg); }
 div.wall-item-content-wrapper.shiny {  background-image: url('shiny.png'); }
