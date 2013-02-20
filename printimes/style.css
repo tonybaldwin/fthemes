@@ -12,7 +12,7 @@ input, select, textarea {
 }
 .openid { background-color: #ffffff;}
 
-body { 	background-color: #ffffff; color: #000000; background-image: none; }
+body { 	background-color: #ffffff; color: #000000; background-image: none;font-family:"Times New Roman", Times, serif;font-size:14px; }
 aside{ 	background-image: none; padding-bottom: 0px; color:#000!important; }
 section { background-color: #ffffff; color: #000!important; background-image: none; }
 #panel { background-color: #ffffff !important;}
