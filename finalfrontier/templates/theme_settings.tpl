@@ -5,6 +5,6 @@
 
 
 <div class="settings-submit-wrapper">
-	<input type="submit" value="{{$submit}}" class="settings-submit" name="finalfronteir-settings-submit" />
+	<input type="submit" value="{{$submit}}" class="settings-submit" name="finalfrontier-settings-submit" />
 </div>
 

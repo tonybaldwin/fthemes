@@ -8,12 +8,12 @@
  * Author: Tony Baldwin <https://free-haven.org/u/tony
  */
 
+function finalfrontier_NS_init(&$a) {
 $a->theme_info = array(
   'extends' => 'duepuntozero',
 );
 set_template_engine($a, 'smarty3');
 
-function finalfrontier_NS_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 function insertFormatting(comment,BBcode,id) {

@@ -7,10 +7,10 @@
  * Screenshot: <a href="screenshot.png">Screenshot</a>
  */
 
+function whovian_init(&$a) {
 $a->theme_info = array();
 set_template_engine($a, 'smarty3');
 
-function whovian_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 function insertFormatting(comment,BBcode,id) {

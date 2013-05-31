@@ -6,12 +6,12 @@
  * Author: Tony Baldwin <tony@free-haven.org>
  */
 
+function terminal_init(&$a) {
 $a->theme_info = array(
   'extends' => 'duepuntozero',
 );
 set_template_engine($a, 'smarty3');
 
-function terminal_init(&$a) {
 $a->page['htmlhead'] .= <<< EOT
 <script>
 function insertFormatting(comment,BBcode,id) {
