@@ -6,13 +6,17 @@
  * Author: Christian Vogeley (https://christian-vogeley.de/profile/christian)
  * Author: Tony Baldwin (https://free-haven.org.profile/tony)
  */
+function freehaven_init(&$a) {
+
+// Nothing happens before the init anymore
 $a->theme_info = array(
   'extends' => 'duepuntozero',
 );
 
 set_template_engine($a, 'smarty3');
 
-function freehaven_init(&$a) {
+
+
 $a->page['htmlhead'] .= <<< EOT
 <script>
 
