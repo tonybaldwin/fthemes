@@ -6,7 +6,7 @@
  * Author: Tony Baldwin <https://free-haven.org/u/tony>
  */
 
-function terminal_init(&$a) {
+function paper_init(&$a) {
 $a->theme_info = array(
   'extends' => 'duepuntozero',
 );

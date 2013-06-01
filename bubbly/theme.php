@@ -6,7 +6,7 @@
  * Author: Tony Baldwin <tony@free-haven.org>
  */
 
-function terminal_init(&$a) {
+function bubbly_init(&$a) {
 $a->theme_info = array(
   'extends' => 'duepuntozero',
 );
