@@ -14,6 +14,11 @@ body { 	background-color: #222222; color: #cccccc; background-image: url(spaceti
 aside{ 	background-image: url(border.jpg); padding-bottom: 0px; }
 section { background-color: #333333;background-image: url(spacetile.jpg); background-repeat:repeat;background-attachment: fixed; min-height: 1000px;}
 
+.sparkle {
+	cursor: url('lock.cur'), pointer;a
+/*	cursor: pointer !important; */
+}
+
 img {border: 5px; border-color: #222;}
 div.vcard { background-color: #333333; background-image: url(ddstar.jpg); background-repeat:repeat; moz-border-radius: 10px; border-radius: 10px; webkit_border-radius: 10px;}
 div.items-wrapper{ background-color: #333333; background-image: url(ddstar.jpg); background-repeat:repeat; moz-border-radius: 10px; border-radius: 10px; webkit_border-radius: 10px;}
