@@ -19,7 +19,7 @@ aside{ 	background-image: none; padding-bottom: 0px; color:#000!important; }
 section { background-color: #ffffff; color: #000!important; background-image: none; min-height:500px;}
 #panel { background-color: #ffffff !important;}
 
-.tabs {	background-image: none; background-color: #eee; }
+.tabs {	background-image: url("tube.png");background-repeat: repeat; background-color: #eee; }
 div.wall-item-content-wrapper.shiny {  background-image: none; }
 
 nav #banner #logo-text a { color: #000; }
@@ -27,6 +27,7 @@ nav .nav-link {
 	float: right;
 	margin: 0.2em 0em;
 	padding: 0em 0.5em;
+	background-image: url("tube.png");background-repeat:repeat;
 	background-color: #ddd!important;
 }
 
