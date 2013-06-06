@@ -22,6 +22,11 @@ section { background-color: #ffffff; color: #000!important; background-image: no
 .tabs {	background-image: none; background-color: #eee; }
 div.wall-item-content-wrapper.shiny {  background-image: none; }
 
+.sparkle {
+	cursor: url('lock.cur'), pointer;a
+/*	cursor: pointer !important; */
+}
+
 nav #banner #logo-text a { color: #000; }
 nav .nav-link {
 	float: right;
